@@ -15,9 +15,9 @@ public class Moms {
         System.out.println("købs momsen er i DDK " + (int) (danskMoms * 100)/ 100.0);
     }
     public static void plusTyskMoms(double købeSum){
-        double plusTyskMoms = købeSum * 0.16;
+        double tyskMoms = købeSum * 0.16;
         
-        System.out.println("Den tyske moms i DKK " + (int) (plusTyskMoms * 100)/ 100.0);
+        System.out.println("Den tyske moms i DKK " + (int) (tyskMoms * 100)/ 100.0);
     }
 
 
